@@ -1,4 +1,4 @@
-alert('This is a 5 round Rock, Paper, Scissor game');
+/*alert('This is a 5 round Rock, Paper, Scissor game');
 let userWin=0; // Number of rounds won by the User
 let compWin=0; // Number of rounds won by the Computer
 // Get Computer Choice
@@ -103,4 +103,4 @@ function playGame(){
     }
 }
 
-playGame();
+playGame();*/
