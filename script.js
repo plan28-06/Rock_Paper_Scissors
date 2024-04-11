@@ -80,7 +80,7 @@ function playRound(playerChoice,computerChoice){
         }
         else if (playerChoice==='paper' && computerChoice==='scissors'){
             compWin++;
-            result.textContent='Computer wins ass scissors beats paper';
+            result.textContent='Computer wins as scissors beats paper';
             computerscoremsg=`Computer Score: ${compWin}`;
             compsc.textContent=computerscoremsg;
             userscoremsg=`Your Score: ${userWin}`;
