@@ -8,10 +8,55 @@
 
 h1{
     width: fit-content ;
-    margin:75px auto;
+    margin:55px auto;
+    font-size: 36px;
 }
 
 h2{
     width: fit-content;
-    margin: -30px auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -30px;
+    margin-bottom:0px;
+    font-size: 26px;
 }
+
+div.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 120px;    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+    border-radius: 18px;
+    background-color: rgb(37, 86, 70);
+}
+
+button{
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(13, 34, 27);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+button:hover,img:hover{
+    background-color: rgb(8, 40, 29);
+}
+
+div.resdesp{
+    margin-top:50px;
+    font-size: 32px;
+    text-align: center; 
+}
+
+.scores{
+    display:flex;
+    margin-top: 30px;
+    font-size: 30px;
+    justify-content:space-around;
+}
+
