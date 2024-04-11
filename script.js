@@ -59,7 +59,7 @@ function playRound(playerChoice,computerChoice){
             compsc.textContent=computerscoremsg;
             userscoremsg=`Your Score: ${userWin}`;
             urscore.textContent=userscoremsg;
-            resmsg=`It is a Draw as both chose ${playerChoice}`;
+            resmsg=`It is a draw as both chose ${playerChoice}`;
             result.textContent=resmsg
         }
         else if (playerChoice==='rock' && (computerChoice==='scissors')){
@@ -72,7 +72,7 @@ function playRound(playerChoice,computerChoice){
         }
         else if(playerChoice==='rock' && (computerChoice==='paper')){
             compWin++;
-            result.textContent='Comp wins as paper beats rock';
+            result.textContent='Computer wins as paper beats rock';
             computerscoremsg=`Computer Score: ${compWin}`;
             compsc.textContent=computerscoremsg;
             userscoremsg=`Your Score: ${userWin}`;
@@ -80,7 +80,7 @@ function playRound(playerChoice,computerChoice){
         }
         else if (playerChoice==='paper' && computerChoice==='scissors'){
             compWin++;
-            result.textContent='Comp wins ass scissors beats paper';
+            result.textContent='Computer wins ass scissors beats paper';
             computerscoremsg=`Computer Score: ${compWin}`;
             compsc.textContent=computerscoremsg;
             userscoremsg=`Your Score: ${userWin}`;
@@ -96,7 +96,7 @@ function playRound(playerChoice,computerChoice){
         }
         else if (playerChoice==='scissors' && computerChoice==='rock'){
             compWin++;
-            result.textContent='Comp wins as rock beats scissors';
+            result.textContent='Computer wins as rock beats scissors';
             computerscoremsg=`Computer: ${compWin}`;
             compsc.textContent=computerscoremsg;
             userscoremsg=`Your Score: ${userWin}`;
