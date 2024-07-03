@@ -2,7 +2,7 @@
 
 ## Website Link
 For a live preview please visit [__Rock Paper Scissors__](https://plan28-06.github.io/Rock_Paper_Scissors/)
-## Purpose
+## Aim
 
 This is a Rock, Paper, Scissors game that was made using HTML, CSS and Javascript.
 
